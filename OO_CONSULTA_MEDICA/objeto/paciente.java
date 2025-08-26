@@ -1,0 +1,49 @@
+package objeto;
+
+public class paciente {
+    private String nome;
+    private String cpf;
+    private String telefone;
+    private int idade;
+
+//construtor
+public paciente(String nome, String cpf, String telefone, int idade){
+    this.nome = nome;
+    this.cpf = cpf;
+    this.telefone = telefone;
+    this.idade = idade;
+}
+//Métodos GETs e SETs
+public String getNome(){
+    return nome;
+}
+
+public void setNome(String nome){
+    this.nome = nome;
+}
+
+public String getCpf(){
+    return cpf;
+}
+
+public void setCpf(String cpf){
+    this.cpf = cpf;
+}
+
+public String getTelefone(){
+    return telefone;
+}
+
+public void setTelefone(String telefone){
+    this.telefone = telefone;
+}
+
+public int getIdade(){
+    return idade;
+}
+
+public void setIdade(int idade){
+    this.idade = idade;
+}
+
+}
